@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./sidebar.css"
 import {PeopleAltTwoTone, StorefrontTwoTone, CreditScoreTwoTone, ReportGmailerrorredTwoTone, AttachEmailTwoTone, ForumTwoTone, SendTwoTone, ManageHistoryTwoTone, EqualizerTwoTone, TipsAndUpdatesTwoTone, HouseTwoTone, LibraryBooksTwoTone, TimelineTwoTone, TrendingUpTwoTone} from '@mui/icons-material';
 
@@ -8,10 +9,12 @@ export default function Sidebar() {
         <div className="sidebarMenu">
             <h4 className="sidebarTitle">DASHBOARD</h4>
             <ul className="sidebarList">
+                <Link to="/" className="link">
                 <li className="sidebarListItem">
                     <HouseTwoTone className="sidebarIcon" />
                     Home
             </li>
+            </Link>
             <li className="sidebarListItem">
                     <TimelineTwoTone className="sidebarIcon" />
                     Analytics
@@ -29,14 +32,18 @@ export default function Sidebar() {
         <div className="sidebarMenu">
             <h4 className="sidebarTitle">QUICK MENU</h4>
             <ul className="sidebarList">
+                <Link to="/users" className="link">
                 <li className="sidebarListItem">
                     <PeopleAltTwoTone className="sidebarIcon" />
                         Users
             </li>
+            </Link>
+            <Link to="/products" className="link">
             <li className="sidebarListItem">
                     <StorefrontTwoTone className="sidebarIcon" />
                         Products
             </li>
+            </Link>
             <li className="sidebarListItem">
                     <CreditScoreTwoTone className="sidebarIcon" />
                         Transactions
