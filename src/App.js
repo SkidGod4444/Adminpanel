@@ -2,22 +2,26 @@ import Sidebar from "./components/SIDEBAR/Sidebar";
 import Topbar from "./components/TOPBAR/Topbar";
 import "./app.css";
 import Home from "./pages/HOME/Home";
-// import { useEffect, useState } from "react";
-// import axios from "axios";
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import UserList from "./pages/USERLIST/UserList";
+import User from "./pages/USER/User";
 
 
 function App() {
-
   return (
-    <div className="App">
+    <Router>
       <Topbar />
       <div className="container">
         <Sidebar />
-        <Home />
-        </div>
-    </div>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/users" element={<UserList />} />
+          <Route path="/user/:userId" element={<User />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
+
 
 export default App;

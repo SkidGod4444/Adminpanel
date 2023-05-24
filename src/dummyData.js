@@ -41,3 +41,15 @@ export const userData = [
           },
       ];
       
+export const userRows = [
+    { id: 1, username: 'Snowy Bella', avatar: "https://i.pinimg.com/originals/b6/31/a7/b631a7a897023e386b282b756c7df0ce.jpg", email: "snowy@gmail", status: "active", transaction: "$120.00" },
+    { id: 2, username: 'Snowy Bella', avatar: "https://i.pinimg.com/originals/b6/31/a7/b631a7a897023e386b282b756c7df0ce.jpg", email: "snowy@gmail", status: "active", transaction: "$120.00" },
+    { id: 3, username: 'Snowy Bella', avatar: "https://i.pinimg.com/originals/b6/31/a7/b631a7a897023e386b282b756c7df0ce.jpg", email: "snowy@gmail", status: "active", transaction: "$120.00" },
+    { id: 4, username: 'Snowy Bella', avatar: "https://i.pinimg.com/originals/b6/31/a7/b631a7a897023e386b282b756c7df0ce.jpg", email: "snowy@gmail", status: "active", transaction: "$120.00" },
+    { id: 5, username: 'Snowy Bella', avatar: "https://i.pinimg.com/originals/b6/31/a7/b631a7a897023e386b282b756c7df0ce.jpg", email: "snowy@gmail", status: "active", transaction: "$120.00" },
+    { id: 6, username: 'Snowy Bella', avatar: "https://i.pinimg.com/originals/b6/31/a7/b631a7a897023e386b282b756c7df0ce.jpg", email: "snowy@gmail", status: "active", transaction: "$120.00" },
+    { id: 7, username: 'Snowy Bella', avatar: "https://i.pinimg.com/originals/b6/31/a7/b631a7a897023e386b282b756c7df0ce.jpg", email: "snowy@gmail", status: "active", transaction: "$120.00" },
+    { id: 8, username: 'Snowy Bella', avatar: "https://i.pinimg.com/originals/b6/31/a7/b631a7a897023e386b282b756c7df0ce.jpg", email: "snowy@gmail", status: "active", transaction: "$120.00" },
+    { id: 9, username: 'Snowy Bella', avatar: "https://i.pinimg.com/originals/b6/31/a7/b631a7a897023e386b282b756c7df0ce.jpg", email: "snowy@gmail", status: "active", transaction: "$120.00" },
+
+];
